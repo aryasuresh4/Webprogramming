@@ -1,0 +1,67 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+	<title> Profile</title>
+  </head>
+<body bgcolor="purple">
+<h1 align="center">UPLOAD YOUR PROFILE</h1>
+<form action="reg.html" method="POST">
+	<table border="0" align="center">
+		<tr>
+			<th>FIRST NAME</th>
+			<td><input type="text" name="text" id="text" placeholder="enter your first name" required></td>
+		</tr>
+		<tr>
+			<th>MIDDLE NAME</th>
+			<td><input type="text" name="text1" id="text1" placeholder="enter your middle name" required></td>
+		</tr>
+		<tr>
+			<th>LAST NAME</th>
+			<td><input type="text" name="text2" id="text2" placeholder="enter your last name" required></td>
+		</tr>
+		<tr>
+			<th>ADDRESS</th>
+			<td><textarea></textarea></td>
+		</tr>
+		<tr>
+			<th>AGE</th>
+			<td><input type="number" name="number" id="number" min ="18" max="45"></td>
+		</tr>
+		<tr>
+			<th>GENDER</th>
+			<td><input type="radio" name="radio" id="radio" value="gender">Male
+			<input type="radio" name="radio" id="radio" value="gender">Female</td>
+		</tr>
+		<tr>
+			<th>DOB</th>
+			<td><input type="date" name="date" id="date" class"form-control"></td>
+		</tr>
+		<tr>
+			<th>COURSE</th>
+			<td><select>
+					<option>CHOOSE ONE</option>
+					<option>msc Maths</option>
+					<option>msc chem</option>
+					<option>msc cs</option>
+					<option>msc bio</option>
+				</select></td>
+		</tr>
+		<tr>
+			<th>QUALIFICATION</th>
+			<td><input type="checkbox" name="ch1" id="ch1">sslc
+			<input type="checkbox" name="ch2" id="ch2">+2
+                        <input type="checkbox" name="ch3" id="ch3">degree</td>
+		</tr>
+		<tr>
+			<th>PHOTO</th>
+			<td><input type="file" name="file" id="file" class"form-control" required></td>
+		</tr>
+		<tr>
+			<td><input type="submit" name="submit" id="submit" class"form-control"></td>
+			<td><input type="reset" name="reset" id="reset" class"form-control"></td>
+		</tr>
+
+</table>
+</form>
+</body>
+</html>
